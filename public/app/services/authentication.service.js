@@ -24,7 +24,7 @@ var AuthenticationService = (function () {
     AuthenticationService.prototype.login = function (user) {
         var _this = this;
         var body = JSON.stringify(user);
-        this.http.post('http://localhost:3002/api/auth/login', body, { headers: headers_1.contentHeaders })
+        this.http.post('/api/auth/login', body, { headers: headers_1.contentHeaders })
             .subscribe(function (response) {
             localStorage.setItem('token', JSON.stringify(response.json().token));
             _this.router.navigate(['home']);

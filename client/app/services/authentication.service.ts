@@ -16,7 +16,7 @@ export class AuthenticationService {
 
     login(user: User) {
         let body = JSON.stringify(user);
-        this.http.post('http://localhost:3002/api/auth/login', body, { headers: contentHeaders })
+        this.http.post('/api/auth/login', body, { headers: contentHeaders })
             .subscribe(
             response => {
                 localStorage.setItem('token', JSON.stringify(response.json().token));
