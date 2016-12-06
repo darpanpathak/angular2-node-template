@@ -1,0 +1,30 @@
+{
+  "name": "angularnodetemplate",
+  "version": "1.0.0",
+  "description": "This project is a basic setup for angularjs2 and nodejs development.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darpanpathak/angular2-node-template.git"
+  },
+  "author": "Darpan Pathak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "core-js": "^2.4.1",
+    "cors": "^2.8.1",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "nodemon": "^1.11.0"
+  }
+}

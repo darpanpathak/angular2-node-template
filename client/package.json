@@ -1,0 +1,43 @@
+{
+  "name": "angularjs2app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "author": "Darpan Pathak",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.10",
+    "typings": "^2.0.0"
+  },
+  "dependencies": {
+    "@angular/common": "^2.2.3",
+    "@angular/compiler": "^2.2.3",
+    "@angular/core": "^2.2.3",
+    "@angular/platform-browser": "^2.2.3",
+    "@angular/platform-browser-dynamic": "^2.2.3",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-beta.6",
+    "systemjs": "^0.19.41",
+    "zone.js": "^0.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/darpan77/firstNg2Project.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://gitlab.com/darpan77/firstNg2Project/issues"
+  },
+  "homepage": "https://gitlab.com/darpan77/firstNg2Project#README",
+  "description": ""
+}
