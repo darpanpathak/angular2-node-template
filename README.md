@@ -3,6 +3,8 @@
 
 Enter anything in the username/password field. 
 
+Hi, You can find the updated version of the application at [https://github.com/darpanpathak/MEAN2-MarvelApp](https://github.com/darpanpathak/MEAN2-MarvelApp) 
+
 ##Instructions
 This repository includes angularjs2 and nodejs basic setup with bootswatch free theme [superhero](http://bootswatch.com/superhero/). I have created this repository to faster the development with MEAN stack projects. I am still in the process of refining this repository.
 
